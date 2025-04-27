@@ -1,0 +1,37 @@
+/* Style for the header and navbar */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding-top: 100px; /* Offset content below the header */
+}
+
+footer {
+  background-color: #333;
+}
+
+footer p {
+  color: white;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+/* Customizing file input */
+input[type="file"] {
+  background-color: #f8f9fa;
+}
